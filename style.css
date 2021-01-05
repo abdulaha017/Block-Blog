@@ -1,0 +1,99 @@
+/*
+Theme Name: Block-Blog
+Version: 1.1
+Requires PHP: 7.0
+Requires at least: 5.5
+Tested up to: 5.5.3
+Description: Experimental Full Site Editing Theme
+Author: Abdulaha Islam
+Author URI: http://abnipes.xyz
+Theme URI: http://abnipes.xyz/block-blog
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, featured-images
+Text Domain: block-blog
+*/
+
+
+.navbar-nav a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.navbar-nav li {
+  padding: 0 8px;
+}
+
+.blog-area {
+    padding: 60px 0;
+}
+.btn-sm {
+    border: 1px solid #007bff;
+    margin-top: 10px;
+}
+
+table#wp-calendar th {
+    width: 50px;
+    height: 50px;
+}
+h6.upper {
+    padding: 0 0 10px;
+}
+
+.post-media img {
+    width: 100%;
+    height: auto;
+}
+.post-body {
+    padding-top: 15px;
+}
+article.post-single {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 40px;
+}
+
+#searchform .screen-reader-text {
+    display: none;
+}
+
+.widget {
+    margin-bottom: 30px;
+}
+
+.page-numbers {
+    padding: 8px 12px;
+    border: 1px solid;
+    font-size: 14px;
+    line-height: 28px;
+}
+a.prev.page-numbers,
+.next.page-numbers {
+    border: none;
+}
+
+h6.upper span.dot {
+    padding: 3px;
+}
+
+footer {
+    color: #fff;
+    background: #212529;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.single.single-post .btn-sm {
+    display: none;
+}
+
+.single.single-post  article.post-single {
+    border: none;
+}
+
+
+
+
